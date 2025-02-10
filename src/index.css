@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    color: #04112A;
+    background: white;
+}
+.makeStyles-root-123:hover{
+    cursor: pointer;
+}
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.remixicon-icon:hover{
+    cursor: pointer;
+}
+.react-daterange-picker__wrapper {
+    border-radius: 6px;
+    border-color: rgba(0, 0, 0, 0.23) !important;
+}
+
+.MuiCheckbox-colorInfo{
+    color: #503E8E !important;
+}
+.MuiPaper-elevation24{
+ overflow: hidden;
+}
+@page:right{
+    @bottom-right {
+        content: counter(page);
+    }
+}
+
+@page:left{
+    @bottom-left {
+        content: counter(page);
+    }
+}
+@media print {
+    header, footer, aside, nav, form, iframe, .menu, .hero, .makeStyles-drawer-23 {
+        display: none;
+    }
+
+    .makeStyles-drawer-44 {
+        display: none;
+    }
+
+    .makeStyles-root-181 {
+        display: none;
+    }
+
+    .makeStyles-root-102 {
+        display: none;
+    }
+
+    .react-resizable-handle {
+        display: none;
+    }
+
+    .MuiButtonBase-root {
+        display: none;
+    }
+
+    .no-print {
+        display: none;
+    }
+
+    body {
+        width: 1858px;
+    }
+}

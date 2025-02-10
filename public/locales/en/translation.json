@@ -1,0 +1,1584 @@
+{
+  "keywords": {
+    "delete": "delete",
+    "da": "Danish",
+    "en": "English"
+  },
+  "navigationMain": {
+    "SearchProject": "Search projects",
+    "Reporting": "Reports",
+    "Strategies": "Strategies",
+    "Citizens": "Citizens",
+    "Users": "Users",
+    "SROI": "SROI report",
+    "Analytics": "Impact Analytics",
+    "Activity": "Activity",
+    "Surveys": "Questionnaires",
+    "Activities": "Activities",
+    "Project": "Project settings",
+    "Profile": "User settings"
+  },
+  "PageNotFound": {
+    "notFound": "404. Page not found",
+    "notFoundDescription": "We couldn't find the page you were looking for.",
+    "back": "Go back"
+  },
+  "HomeBasePage": {
+    "title": "Project",
+    "exportData": "Export data"
+  },
+  "LoginPage": {
+    "login": "Log in",
+    "email": "Email",
+    "password": "Password",
+    "hidePassword": "Hide password",
+    "showPassword": "Show password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?"
+  },
+  "ForgotPassword": {
+    "resetPassword": "Reset password",
+    "enterYourEmail": "Enter your email, and we'll send you instructions to reset your password.",
+    "weHaveSentYouEmail": "We have sent you an email with information on how to reset your password",
+    "back": "Back"
+  },
+  "MePage": {
+    "myProfile": "My profile",
+    "userRole": "Your user role is: {{userRole}}",
+    "createdDate": "Created: {{createdDate}}",
+    "projects": "Projects",
+    "projectsDescription": "Here you can see your associated projects.",
+    "logout": "Log out"
+  },
+  "tokenExpiration": {
+    "sessionExtendSuccessMessage": "Your session has been extended.",
+    "sessionExtendErrorMessage": "Unable to extend the session. Please log in again.",
+    "sessionExpiredMessage": "Your session has expired. Please log in again.",
+    "sessionExpirationConfirmation": "Your session is expiring soon. Would you like to extend it?"
+  },
+  "SubscriptionPlans": {
+    "starterPlan": {
+      "plan": "Starter",
+      "solutionTypeStarter": "You're using our Starter solution",
+      "upgrade": "To upgrade to Premium, call Anton."
+    },
+    "premiumPlan": {
+      "solutionTypePremium": "You are using our Premium solution since ",
+      "createdAt": "createdAtPlaceholder"
+    },
+    "employeesChip": "{{count}} employees",
+    "citizensChip": "{{count}} citizens"
+  },
+  "Tags": {
+    "title": "Tags",
+    "noTags": "There are no created tags",
+    "removeTags": "Remove tags by clicking on the X",
+    "removeTagTooltip": "Remove \"{{tagName}}\" tag",
+    "selectedTagDeleted": "\"{{selectedTag}}\" is being deleted, it can take some time."
+  },
+  "Support": {
+    "title": "Support",
+    "availability": "Daniel is available on email every week day 10:00-16:00",
+    "email": "daniel@impactly.dk",
+    "copied": "Copied to clipboard",
+    "feedbackTitle": "Give Feedback",
+    "feedbackDescription": "If you want to give feedback or report an error, please use the red 'Feedback' button on the left side of the screen."
+  },
+  "PremiumContact": {
+    "phoneNumber": "20729960"
+  },
+  "Sequences": {
+    "Ordinal": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Quaternary",
+      "Quinary",
+      "Senary",
+      "Septenary",
+      "Octonary",
+      "Nonary",
+      "Denary"
+    ]
+  },
+  "CustomizeTheme": {
+    "title": "Customize theme",
+    "saveButton": "Save",
+    "subtitle": "Change colours on charts and similar elements. Use Hex format as input.",
+    "colorLabel": "{{sequence}} Colour",
+    "themeSaved": "Theme saved",
+    "duplicateValue": "There is a duplicate value"
+  },
+  "CommunicationToCitizens": {
+    "title": "Communication to citizens",
+    "subtitle": "Customize the emails and text messages that are sent to the citizens",
+    "snackbarSavedText": "The new text is saved"
+  },
+  "WelcomeEmailSMS": {
+    "title": "Welcome email/SMS",
+    "charactersRemaining": "Characters left: ",
+    "opening": "Dear [Citizen name]",
+    "label": "Welcome email/sms text",
+    "closing": "Kind regards [Project name]"
+  },
+  "SurveyEmailSMS": {
+    "title": "Survey email/SMS",
+    "label": "Survey email/sms text",
+    "link": "Answer here: [Link]"
+  },
+  "ActionButtons": {
+    "reset": "Reset",
+    "save": "Save",
+    "edit": "Edit",
+    "close": "Close",
+    "continue": "Continue"
+  },
+  "LanguageSelector": {
+    "label": "UI language(only affects me)",
+    "optionEnglish": "English",
+    "optionDanish": "Dansk"
+  },
+  "ConfirmDialog": {
+    "title": "Delete tag",
+    "message": "Are you sure you want to delete this tag? Once you delete it, it will be removed from all citizens and all reports. This action cannot be undone.",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "ExportDialog": {
+    "title": "Export Image",
+    "qualityLabel": "Image Quality",
+    "sizeLabel": "Image Size",
+    "cancel": "Cancel",
+    "export": "Export",
+    "estimatedSize": "Estimeret filstørrelse"
+  },
+  "PatientListPage": {
+    "search": "Search...",
+    "name": "Name",
+    "contact": "Contact",
+    "sex": "Sex",
+    "age": "Age",
+    "municipality": "Municipality",
+    "lastAnswered": "Last Answered",
+    "submissionDate": "Submission Date",
+    "strategy": "Strategy",
+    "status": "Status",
+    "tags": "Tags",
+    "create": "Create",
+    "importData": "Import Data",
+    "anonymize": "Anonymize",
+    "deAnonymize": "De-anonymize",
+    "deactivate": "Deactivate",
+    "activate": "Activate",
+    "active": "Active",
+    "inactive": "Inactive",
+    "showAllCitizens": "Show All Citizens",
+    "showOnlyActive": "Show Only Active",
+    "filteringOn": "Filtering On",
+    "noCitizens": "No Citizens",
+    "createACitizen": "Create a citizen and start collecting data",
+    "createACitizenButton": "Create citizen",
+    "editCitizen": "Edit citizen",
+    "createRegistration": "Create registration",
+    "areYouSure": "Anonymize selected citizens?",
+    "anonymizeWarning": "By proceeding, the name and contact details (phone and email) for this citizen will be hidden for all non-admin users. Only admin users can reverse this action.",
+    "deAnonymizeWarning": "By proceeding, the name and contact details (phone and email) for the selected citizens will become visible. All users on this project will be able to see this currently hidden information.",
+    "deactivateWarning": "By proceeding, the selected patients will be deactivated. They will no longer be able to receive questionnaires and respond to them.",
+    "reactivateWarning": "By proceeding, the selected patients will be reactivated. They will be able to receive questionnaires and respond to them again.",
+    "requestedActionPatients": "You have chosen {{selectedNumber}} citizen."
+  },
+  "PatientCrudDialog": {
+    "titleEdit": "Edit Citizen",
+    "titleNew": "Register New Citizen",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "defaultSMS": "Questionnaires are sent via SMS by default. If the phone number is not filled out, email will be used.",
+    "sex": "Sex",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "birthDate": "Birth date",
+    "postNumber": "Post number",
+    "notEmpty": "Write something",
+    "noOptions": "No matches",
+    "municipality": "Municipality",
+    "region": "Region",
+    "active": "Active"
+  },
+  "Validators": {
+    "fieldIsRequired": "This field is required.",
+    "invalidEmail": "The email is not valid.",
+    "invalidPhoneNumber": "The phone number is not valid.",
+    "passwordTooShort": "The password must be longer than 6 characters.",
+    "passwordTooLong": "The password must be shorter than 64 characters.",
+    "passwordMustHaveNumber": "The password must contain at least one number.",
+    "passwordMustHaveCapitalLetter": "The password must contain at least one uppercase letter.",
+    "passwordsMustMatch": "The entered passwords do not match.",
+    "dateCannotBeInFuture": "The date cannot be in the future.",
+    "invalidDate": "The date is not valid.",
+    "requiredDate": "The date is required."
+  },
+  "CrudDialog": {
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "execute": "Save",
+    "areYouSure": "You are about to delete this element. Are you sure this is the desired action?",
+    "criticalAction": "This action is very critical and cannot be undone!",
+    "enterElementName": "Confirm by entering the name of the element:",
+    "enterConfirmText": "Confirm by entering the <i>'delete'</i> in the box."
+  },
+  "RegisterDialog": {
+    "titleEdit": "Edit Registration",
+    "titleNew": "Create new registration",
+    "date": "Date",
+    "registrationType": "Registration type",
+    "statusCategory": "Status category",
+    "statuses": "Statuses",
+    "registration": "Registration",
+    "value": "Value",
+    "note": "Note",
+    "snackbarNoMatchReg": "No matching registrations",
+    "snackError": "There was an error creating the registration.",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "ImportDialog": {
+    "title": "Import Data",
+    "message": "You are about to import data into Impactly. To import in the correct format, it is recommended that you use the accompanying template. You can find the template by clicking on \"Import Data\"."
+  },
+  "Notifications": {
+    "patientName": "Name",
+    "surveyName": "Survey",
+    "sendOutDate": "Sent",
+    "reminderSent": "Reminder Sent",
+    "remind": "Notify",
+    "deleteAllSuccessful": "Successfully removed {{notificationCounts}} notifications.",
+    "deleteAllFailed": "Failed to remove any notification.",
+    "deleteAllNeutral": "Nothing to remove here!",
+    "resend": "Resend questionnaire",
+    "remindAll": "Notify All",
+    "deleteAll": "Delete All",
+    "noActivities": "No notifications",
+    "deleteAllActivityTitle": "Delete all",
+    "deleteActivityTitle": "Delete Activity",
+    "deleteActivityDescription": "You have chosen to permanently delete the reminder scheduled for {{sendOutDate}}, for the citizen {{patientName}}. If you proceed, you will no longer be able to send reminders for this dispatch or see any messages about it. However, the citizen can still respond to the dispatch on their own initiative.",
+    "deleteAllActivityDescription": "You have chosen to permanently delete {{notificationCounts}} notifications, Would you like to proceed?",
+    "snackbarSuccessRemindersSent": "Reminders Sent",
+    "snackbarInfoNoReminders": "There are no notifications ready to be sent"
+  },
+  "Surveys": {
+    "projectQuestionnaires": "Project surveys",
+    "clickToViewQuestionnaire": "Click on the questionnaire you wish to view",
+    "noSurveySelected": "No survey is selected",
+    "validated": "Validated"
+  },
+  "SurveyBuilder": {
+    "title": "Questionnaires",
+    "editBtn": "Edit",
+    "addBtn": "Add new",
+    "backBtn": "Back",
+    "resetBtn": "Reset",
+    "notEmphty": "Cannot be empty",
+    "listTitle": "Project questionnaires",
+    "listSubHeader": "Click on the questionnaire you wish to view",
+    "search": "Search",
+    "filter": "Filter",
+    "filterValidated": "Validated",
+    "filterCustomSurvey": "Custom",
+    "validated": "Validated",
+    "question": "Question",
+    "deletedQuestion": "Delete question",
+    "deletedOption": "Delete option",
+    "nonMandatory": "Make question non-mandatory",
+    "multipleChoices": "Allow multiple choices",
+    "deletedQuestionMsg": "Are you sure you want to delete this question",
+    "freeText": "Text Module",
+    "separatorText": "Separator text",
+    "questionOptions": "Question (options)",
+    "likertLanguageNotice": "The language for the following options is set to {{lang}} based on the project's language settings.",
+    "likertOptions": "Question (likert scale - {{lang}})",
+    "name": "Name",
+    "longName": "Long name",
+    "description": "Description",
+    "DefaultQuestionName": "Unavngivet spørgsmål",
+    "options": "Option {{number}}",
+    "addOption": "Add option",
+    "inUse": "Questionnaire currently in use",
+    "inUseModalDescription": "This questionnaire is currently in a strategy, and a change in content can affect the accuracy of the collected data.",
+    "inUseModalDescription2": "Therefore we strongly recommend not to edit a questionnaire until any active data collections are completed and no new data collections using the questionnaire has started.",
+    "inUseModalCancel": "Cancel",
+    "inUseModalConfirm": "Confirm",
+    "inUseSave": "This questionnaire is currently in a strategy, and a change in content can affect the accuracy of the collected data.",
+    "inUseSave2": "Therefore we strongly recommend not to edit a questionnaire until any active data collections are completed and no new data collections using the questionnaire has started. Do you want to continue?",
+    "cantNavigateAwaySaveChanges": "Save changes?",
+    "cantNavigateAwayDescription": "You are attempting to navigate away from a survey you are currently editing.",
+    "cantNavigateAwayDescription2": "Do you to save your changes before you proceed or discard them?",
+    "cantNavigateAwayBtnDiscard": "Discard",
+    "cantNavigateAwayBtnSave": "Save",
+    "deleteBtn": "Delete",
+    "deleteDialogTitle": "Delete questionnaire?",
+    "deleteDialogMessage": "You are attempting to delete the selected questionnaire",
+    "deleteFieldDialogMessage": "You are attempting to delete the selected question",
+    "deleteChoiceDialogMessage": "You are attempting to delete the selected choice",
+    "deleteDialogMessage2": "This action is irriversible. Are you sure you want to continue?",
+    "deleteDialogElementName": "Confirm by entering the name of the questionnaire",
+    "filterNone": "All",
+    "newSurveyAnswer": "Write your header here",
+    "newSurveyAnswerOption": "option 1",
+    "newSurveySeparator": "Write your text here fx. let the respondent know what they should expect in the next questions.",
+    "separator": "Header",
+    "customizeLabelsTitle": "Customize Labels",
+    "customizeLabelsSubTitle": "Modify the charts labels",
+    "currentLabels": "Current Labels",
+    "defaultScale": "Default",
+    "likertScale": "Likert",
+    "surveyScale": "Scale Type",
+    "likertScaleChoiceAmount": "Scale Items",
+    "isNeutralLabel": "Skip Neutral values? ",
+    "duplicate": "Duplicate",
+    "copyOf": "Copy of {{surveyName}}",
+    "scaleCategory": {
+      "label": "Scale Category",
+      "menuItems": [
+        "Agreement",
+        "Satisfaction",
+        "Frequency",
+        "Importance",
+        "Degree"
+      ]
+    },
+    "scales": {
+      "Likert": {
+        "2": {
+          "agreement": ["Agree", "Disagree"],
+          "satisfaction": ["Very satisfied", "Very dissatisfied"],
+          "frequency": ["Always", "Never"],
+          "importance": ["Very important", "Not important"],
+          "degree": ["To a large extent", "To a low extent"]
+        },
+        "3": {
+          "agreement": ["Agree", "Neutral", "Disagree"],
+          "satisfaction": ["Very satisfied", "Neutral", "Very dissatisfied"],
+          "frequency": ["Always", "Sometimes", "Never"],
+          "importance": ["Very important", "Neutral", "Not important"],
+          "degree": ["To a large extent", "Neutral", "To a low extent"]
+        },
+        "4": {
+          "agreement": [
+            "Strongly Agree",
+            "Agree",
+            "Disagree",
+            "Strongly Disagree"
+          ],
+          "satisfaction": [
+            "Very satisfied",
+            "Satisfied",
+            "Dissatisfied",
+            "Very dissatisfied"
+          ],
+          "frequency": ["Always", "Often", "Rarely", "Never"],
+          "importance": [
+            "Very important",
+            "Important",
+            "Not very important",
+            "Not at all important"
+          ],
+          "degree": [
+            "To a very large extent",
+            "To a large extent",
+            "To a low extent",
+            "To a very low extent"
+          ]
+        },
+        "5": {
+          "agreement": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+          ],
+          "satisfaction": [
+            "Very satisfied",
+            "Satisfied",
+            "Neutral",
+            "Dissatisfied",
+            "Very dissatisfied"
+          ],
+          "frequency": ["Always", "Often", "Sometimes", "Rarely", "Never"],
+          "importance": [
+            "Very important",
+            "Important",
+            "Neutral",
+            "Not very important",
+            "Not at all important"
+          ],
+          "degree": [
+            "To a very large extent",
+            "To a large extent",
+            "Neutral",
+            "To a low extent",
+            "To a very low extent"
+          ]
+        },
+        "6": {
+          "agreement": [
+            "Strongly Agree",
+            "Moderately Agree",
+            "Slightly Agree",
+            "Slightly Disagree",
+            "Moderately Disagree",
+            "Strongly Disagree"
+          ],
+          "satisfaction": [
+            "Very satisfied",
+            "Moderately satisfied",
+            "Slightly satisfied",
+            "Slightly dissatisfied",
+            "Moderately dissatisfied",
+            "Very dissatisfied"
+          ],
+          "frequency": [
+            "Always",
+            "Very often",
+            "Often",
+            "Rarely",
+            "Very rarely",
+            "Never"
+          ],
+          "importance": [
+            "Very important",
+            "Moderately important",
+            "Slightly important",
+            "Slightly unimportant",
+            "Not very important",
+            "Not at all important"
+          ],
+          "degree": [
+            "To a very large extent",
+            "To a moderately large extent",
+            "To a slightly large extent",
+            "To a slightly low extent",
+            "To a moderately low extent",
+            "To a very low extent"
+          ]
+        },
+        "7": {
+          "agreement": [
+            "Strongly Agree",
+            "Moderately Agree",
+            "Slightly Agree",
+            "Neutral",
+            "Slightly Disagree",
+            "Moderately Disagree",
+            "Strongly Disagree"
+          ],
+          "satisfaction": [
+            "Very satisfied",
+            "Moderately satisfied",
+            "Slightly satisfied",
+            "Neutral",
+            "Slightly dissatisfied",
+            "Moderately dissatisfied",
+            "Very dissatisfied"
+          ],
+          "frequency": [
+            "Always",
+            "Very often",
+            "Often",
+            "Sometimes",
+            "Rarely",
+            "Very rarely",
+            "Never"
+          ],
+          "importance": [
+            "Very important",
+            "Moderately important",
+            "Slightly important",
+            "Neutral",
+            "Slightly unimportant",
+            "Not very important",
+            "Not at all important"
+          ],
+          "degree": [
+            "To a very large extent",
+            "To a moderately large extent",
+            "To a slightly large extent",
+            "Neutral",
+            "To a slightly low extent",
+            "To a moderately low extent",
+            "To a very low extent"
+          ]
+        }
+      }
+    }
+  },
+  "Users": {
+    "name": "Name",
+    "email": "Email",
+    "phoneNumber": "Phone number",
+    "roleType": "Role type",
+    "noUsers": "No users",
+    "noUsersOnProject": "There are no user in the project",
+    "createUser": "Create user",
+    "create": "Create",
+    "resendInvitation": "Resend invitation",
+    "colleagueInvited": "Your colleague is now invited to Impactly",
+    "editEmployee": "Edit user",
+    "registerNewEmployee": "Register new user",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "snackbarSuccess": "Invitation has been resent"
+  },
+  "StrategiesPage": {
+    "create": "Create",
+    "noStrategies": "No strategies",
+    "weHelpYouSetUp": "We help you all the way through the setup",
+    "createStrategy": "Create strategy",
+    "deleteStrategyIconLabel": "Delete Strategy",
+    "deleteStrategy": "Critical action!",
+    "deleteAreYouSure": "Are you sure you want to delete this strategy? If you delete the strategy, ALL data collected via this strategy will be deleted. Also, all report modules created with this strategy will be deleted. Continue?",
+    "survey_one": "{{count}} survey",
+    "survey_other": "{{count}} surveys",
+    "registration_one": "{{count}} registration",
+    "registration_other": " {{count}} registrations",
+    "citizen_one": "{{count}} citizen",
+    "citizen_other": "{{count}} citizens",
+    "sendout_one": "{{count}} sendout",
+    "sendout_other": "{{count}} sendouts"
+  },
+  "StrategyFlowPage": {
+    "surveys": "Surveys",
+    "participants": "Participant",
+    "sendouts": "Sendouts",
+    "registrations": "Registrations",
+    "createStrategy": "Create strategy",
+    "continueWithoutSave": "You are about to leave without saving!",
+    "promptContinue": "Are you sure you want to leave without saving?",
+    "cancel": "Cancel",
+    "back": "Back",
+    "ready": "Complete",
+    "next": "Next",
+    "namePrompt": "Name your strategy",
+    "nameLabel": "Name",
+    "validated": "Validated",
+    "SendoutDialog": {
+      "titleSurvey": "Select surveys",
+      "descriptionSurvey": "Choose one or more surveys to send out",
+      "titlePatients": "Add citizens to sendout",
+      "descriptionPatients": "Select citizens to send to",
+      "titleSendoutType": "Choose order and type",
+      "descriptionSendoutType": "In what order, and when should they be answered?",
+      "titleFrequencyType": "Set up your sendout",
+      "descriptionFrequencyType": "Select frequency and time for the sendout."
+    },
+    "StrategyCreationSurveyView": {
+      "name": "Name",
+      "resetStep": "RESET STEP",
+      "back": "BACK",
+      "next": "Next"
+    },
+    "StrategyCreationPatientsView": {
+      "filterName": "Filter by name",
+      "filterTags": "Filter by tags",
+      "name": "Name",
+      "tags": "Tags",
+      "resetStep": "RESET STEP",
+      "back": "BACK",
+      "next": "Next"
+    },
+    "StrategyCreationSendoutTypeView": {
+      "chosenSurveys": "Selected surveys",
+      "back": "BACK",
+      "next": "Next"
+    },
+    "StrategyCreationFrequencyTypeView": {
+      "chosenFrequency": "Select which frequencies and specific times the sendout should be sent on.",
+      "resetStep": "RESET STEP",
+      "save": "Save",
+      "back": "BACK",
+      "sendEvery": "Send every:",
+      "day": "day",
+      "week": "week",
+      "month": "month",
+      "time": "Time:",
+      "endAfter": "Ends after:",
+      "whenCompleted": "When the sendout completes",
+      "numberSendouts": "Number of sendouts",
+      "sendouts": "Sendouts"
+    },
+    "FrequencyView": {
+      "time": "Time",
+      "surveys": "Surveys",
+      "participant": "Participants",
+      "createSendout": "Create Sendout",
+      "untilCompleted": " until the sendout completes",
+      "untilNumberSendouts": " for {{number}} sendouts",
+      "everyNthWeek": "every {{nthWeek}} weeks"
+    }
+  },
+  "StrategyCommunication": {
+    "sent": "Sent",
+    "frequencies": "Sendouts",
+    "subtitleFrequency": "Overview of when your selected questionnaires are sent out to the associated citizens",
+    "edit": "Edit",
+    "delete": "Delete",
+    "citizens": "Citizens",
+    "citizensListTitle": "Citizens List",
+    "confirmDeleteTitle": "Delete",
+    "confirmDeleteMessage": "Are you sure you want to delete this historical sendout?",
+    "sendoutsNonEditable": "It is not possible to edit immediate sendouts.",
+    "sendoutRemoved": "The sendout has been removed"
+  },
+  "StrategyBatchRegistrations": {
+    "registrationRemoved": "The registration has been removed!",
+    "regCreated": "The registration has been created",
+    "regUpdated": "The registration has been updated",
+    "registrations": "Registrations",
+    "registrationsSubtitle": "See what can be registered for citizens",
+    "numeric": "Numeric",
+    "incident": "Incident",
+    "status": "Status",
+    "register": "Register",
+    "rename": "Rename",
+    "delete": "Delete",
+    "deleteTitle": "Delete",
+    "deleteMessage": "Are you sure you want to delete this historical sendout?",
+    "editNumericTitle": "Edit Numeric Name",
+    "editIncidentTitle": "Edit Event Name",
+    "editStatusTitle": "Edit Status Name",
+    "editNameLabel": "Edit name",
+    "editNameStatusLabel": "Edit name: Status #{{index}}",
+    "resetButton": "Reset",
+    "editButton": "Edit",
+    "createRegistration": "Create registration",
+    "selectTypeAndName": "Select type and name the registration you would like to create for the citizens",
+    "selectTypeLabel": "Select type",
+    "nameOfStatusCategory": "Name of status category",
+    "nameOfRegistration": "Name of registration",
+    "validation": {
+      "minOneRegistration": "You must add at least one registration",
+      "duplicateNotAllowed": "Duplicate status names are not allowed",
+      "duplicateStatus": "Status name already exists"
+    },
+    "editCategoryLabel": "Edit Category Name"
+  },
+  "RegistrationFlowPage": {
+    "chooseCitizens": "Choose Citizens",
+    "addDate": "Add Date",
+    "reviewAndConfirm": "Review and Confirm",
+    "numericRegistration": "Numeric Registration: ",
+    "incidentRegistration": "Event Registration: ",
+    "statusRegistration": "Status Registration: ",
+    "confirmationDialogTitle": "Confirm Registration",
+    "confirmationDialogDescription": "Are you sure you want to complete the registration?",
+    "successSnackbarWithCount_one": "{{count}} participant registered",
+    "successSnackbarWithCount_other": "{{count}} participants registered",
+    "errorSnackbar": "There was an error with the registration.",
+    "ChooseCitizens": {
+      "name": "Name",
+      "status": "Status",
+      "registered": "Registered",
+      "unregistered": "Unregistered",
+      "tags": "Tags",
+      "note": "Note",
+      "filterByName": "Filter by name",
+      "filterByTags": "Filter by tags",
+      "selectedCitizens_one": "{{count}} citizen selected",
+      "selectedCitizens_other": "{{count}} citizens selected",
+      "previousButton": "BACK",
+      "nextButton": "Next"
+    },
+    "AddDate": {
+      "registrationDate": "Registration date",
+      "changeDate": "change date",
+      "registrationValue": "Registration value",
+      "back": "BACK",
+      "next": "Next"
+    }
+  },
+  "CommunicationFlowPage": {
+    "addSurveyTitle": "Add Surveys",
+    "addSurveyDescription": "Choose one or more surveys for sendout",
+    "addCitizensTitle": "Add citizens to sendout",
+    "addCitizensDescription": "Select citizens to send to",
+    "chooseOrderTitle": "Choose order and type",
+    "chooseOrderDescription": "In what order, and when should they be answered?",
+    "setupSendoutTitle": "Set up your sendout",
+    "setupSendoutDescription": "Choose frequency and schedule for the sendout",
+    "successfulSendout": "The sendout has been successfully sent to {{count}} citizens",
+    "errorCreatingFrequency": "There was an error creating the sendout frequency.",
+    "confirmSendoutTitle": "Confirm sendout",
+    "closeDialog": "Are you sure you want to complete the sendout?",
+    "confirmAndSaveSettings": "Are you sure you want to confirm the settings and save the sendout?",
+    "immediateSendoutDescription": "If you answer 'Yes', the surveys will be sent to the selected citizens immediately.",
+    "closeConfirmTitle": "Close dialog",
+    "closeConfirmMessage": "You have unsaved changes. Are you sure you want to close this dialog? All changes will be lost.",
+    "StrategySurveyView": {
+      "name": "Name",
+      "resetStep": "RESET STEP",
+      "back": "BACK",
+      "next": "Next"
+    },
+    "StrategyPatientsView": {
+      "name": "Name",
+      "status": "Status",
+      "tags": "Tags",
+      "active": "Active",
+      "inactive": "Inactive",
+      "filterName": "Filter by name",
+      "filterTag": "Filter by tags",
+      "selectedCitizens_one": "{{count}} citizen selected",
+      "selectedCitizens_other": "{{count}} citizens selected",
+      "reset": "RESET STEP",
+      "back": "BACK",
+      "next": "Next",
+      "selectAll": "Select all"
+    },
+    "StrategySendoutTypeView": {
+      "frequency": "On specific days with a certain frequency",
+      "immediate": "Immediately",
+      "selectedSurveys": "Selected surveys",
+      "chooseSendoutType": "Choose type of sendout",
+      "back": "BACK",
+      "next": "Next"
+    },
+    "FrequencyTypeView": {
+      "invalidInterval": "Invalid number of intervals",
+      "invalidHour": "Invalid hour value",
+      "invalidMinute": "Invalid minute value",
+      "chooseWeekdays": "You must choose one or more weekdays",
+      "chooseDays": "You must choose one or more days",
+      "invalidOccurrences": "Invalid number of occurrences",
+      "selectTimes": "Select the frequencies and specific times for the sendout.",
+      "sendEvery": "Send every:",
+      "time": "Time:",
+      "endsAfter": "Ends after:",
+      "whenRunsOut": "When the course ends",
+      "occurrences": "Number of occurrences",
+      "sendouts": "Sendouts",
+      "reset": "RESET STEP",
+      "back": "BACK",
+      "execute": "Save",
+      "daily": "day",
+      "weekly": "week",
+      "monthly": "month"
+    },
+    "StrategyRegSendoutUpdateView": {
+      "registrationValue": "Registration value",
+      "registrationDate": "Registration date",
+      "noOptions": "No options",
+      "name": "Name",
+      "registeredDate": "Registered date",
+      "note": "Note",
+      "value": "Value",
+      "status": "Status",
+      "missingValue": "Missing Value",
+      "back": "Back",
+      "next": "Next",
+      "cancelNote": "Cancel a Note",
+      "addNote": "Add a Note",
+      "add": "Add",
+      "execute": "Execute"
+    }
+  },
+  "StrategySurveys": {
+    "name": "Name",
+    "validatedChip": "Validated",
+    "inUseChip": "In sendout",
+    "surveyErrorMessage": "This survey is being used in one of the sendouts",
+    "surveySuccessMessage": "Surveys successfully assigned to this strategy",
+    "surveyHeading": "Surveys",
+    "surveySubHeading": "All surveys in this strategy ",
+    "selectSurvey": "Select Surveys",
+    "applySelected": "Apply selected"
+  },
+  "StrategyPatients": {
+    "name": "Name",
+    "title": "Citizens",
+    "noPatientsSubtitle": "There are no citizens associated with this strategy. Add them here, or go into each individual citizen",
+    "hasPatientsSubtitle": "These are the citizens who are associated with this strategy",
+    "AddPatientsDialog": {
+      "addCitizens": "Add citizens to ",
+      "addCitizensSubtitle": "The list only contains citizens who do not already have a strategy",
+      "noCitizensAvailable": "There are no citizens without a strategy",
+      "successSnackbar": "Citizens were successfully added",
+      "warningSnackbar": "{{error}} out of {{count}} citizens were not correctly added",
+      "errorSnackbar": "Something went wrong"
+    }
+  },
+  "PatientTableHeads": {
+    "name": "Name",
+    "contact": "Contact",
+    "gender": "Sex",
+    "age": "Age",
+    "municipality": "Municipality",
+    "lastAnswered": "Last Answered",
+    "strategy": "Strategy",
+    "status": "Status",
+    "tags": "Tags",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "ReportsPage": {
+    "reportCopy": "Copy of {{reportName}}",
+    "createReport": "Create report",
+    "noReports": "No reports",
+    "seeAndShare": "View and share collected data",
+    "edited": "Edited {{date}}"
+  },
+  "timeAgo": {
+    "justNow": "just now",
+    "secondsAgo": "{{count}} sec ago",
+    "minuteAgo": "{{count}} min. ago",
+    "minutesAgo": "{{count}} min. ago",
+    "hourAgo": "{{count}} hour ago",
+    "hoursAgo": "{{count}} hours ago",
+    "dayAgo": "1 day ago",
+    "daysAgo": "{{count}} days ago"
+  },
+  "ReportPage": {
+    "title": "Title",
+    "add": "Add",
+    "save": "Save",
+    "delete": "Delete report",
+    "answerRate": "Answer rate: {{value}}",
+    "deleteMessage": "Are you sure you want to delete this report?",
+    "continueWithoutSave": "You are about to leave without saving!",
+    "continiueConfirm": "Are you sure you want to leave without saving?",
+    "ShareReport": {
+      "reportNotSaved": "The report must be saved first",
+      "shareReport": "You can now share the report!",
+      "linkCopied": "Link copied",
+      "linkLabel": "Link",
+      "shareButton": "Share"
+    },
+    "ModulePickerDialog": {
+      "title": "Configure chart",
+      "addModule": "Add module",
+      "updateModule": "Update module",
+      "back": "Back",
+      "configureModule": "Configure module",
+      "yourModuleIsNotImplemented": "Your module is not implemented"
+    }
+  },
+  "ReportsIndex": {
+    "pointSystemTypeMap": {
+      "absoluteNumbers": "Absolute Numbers",
+      "percentage": "Percentage"
+    },
+    "graphTypeMap": {
+      "bar": "Bar",
+      "pie": "Pie"
+    },
+    "surveyStats": {
+      "title": "Validated Surveys",
+      "description": "Average score of selected validated questionnaires"
+    },
+    "pictureUpload": {
+      "title": "Upload Picture",
+      "description": "Upload a custom picture to your report"
+    },
+    "freeText": {
+      "title": "Text Module",
+      "description": "Add custom text to your report"
+    },
+    "customDistribution": {
+      "title": "Custom Surveys",
+      "description": "Collected data from custom surveys"
+    },
+    "correlativeDistribution": {
+      "title": "Correlative Distribution",
+      "description": "Compare collected data from multiple surveys"
+    },
+    "statusDistribution": {
+      "title": "Status Registrations",
+      "description": "Status distribution by status categories"
+    },
+    "numericalAverage": {
+      "title": "Numerical Registrations",
+      "description": "Average of numerical Registrations"
+    },
+    "aggregatedCount": {
+      "title": "Incident Registrations",
+      "description": "Summed count of selected events"
+    }
+  },
+  "moduleConfigs": {
+    "questionType": "Select Question Type",
+    "selectScale": "Select Scale",
+    "back": "Back",
+    "reset": "Reset",
+    "noStrategies": "No strategies",
+    "noCountStrategies": "No strategies with count registrations",
+    "generalTitle": "General",
+    "addTimeInterval": "+ Add time interval",
+    "addTimeQuestion": "+ Add Quetion",
+    "customization": "Customization",
+    "selectStrategy": "Select strategy",
+    "filterOnTags": "Filter on tags",
+    "selectRegistration": "Select registration",
+    "selectSurvey": "Select survey",
+    "selectQuestion": "Select question",
+    "selectQuestionType": "Select question type",
+    "name": "Name",
+    "showEmptyDataPoints": "Show empty data points",
+    "doNotShowEmptyDataPoints": "Do not show empty data points",
+    "emptyViewTitle": "No registrations",
+    "chooseTimePeriod": "Choose time period",
+    "start": "Start",
+    "end": "End",
+    "chooseStartDate": "Choose start date",
+    "chooseEndDate": "Choose end date",
+    "invalidDateMessage": "Invalid date",
+    "minDateMessage": "The selected year must be later",
+    "maxDateMessage": "The selected date must be before today",
+    "chooseFrequency": "Select frequency",
+    "noSurveys": "No surveys",
+    "timeInterval": "Time interval {{count}}",
+    "averageScore": "Avg. score",
+    "quantity": "Quantity",
+    "delete": "Delete",
+    "edit": "Edit",
+    "editLabels": "Edit labels",
+    "copy": "Duplicate",
+    "export": "Export",
+    "noCustomSurveys": "No custom surveys",
+    "noStrategyWithCustom": "No strategy with custom surveys",
+    "noStrategyWithValidated": "No strategy with validated surveys",
+    "diagramType": "Diagram type",
+    "chooseQuestion": "Choose question",
+    "chooseXaxis": "X-axis type",
+    "choices": "Choices",
+    "periods": "Periods",
+    "numberPercentage": "Number/Percentage",
+    "title": "Title",
+    "noStrategyWithNumeric": "No strategy with numeric registrations",
+    "averageValue": "Avg. value",
+    "noData": "No data",
+    "periodAnswerRate": "Time Period",
+    "answerRate": " (Answer rate)",
+    "clickToUpload": "Click to upload",
+    "dragAndDrop": "or drag and drop",
+    "noStrategyWithStatus": "No strategy with status registrations",
+    "chooseStatus": "Choose status category",
+    "pointInTime": "Point in time",
+    "chooseDate": "Choose date",
+    "labelLocation": "Change value location",
+    "slantedLabel": "Slant labels on x axis",
+    "isAverageScore": "Show average score",
+    "isExcludeOnlyOneAnswer": "Exclude data from citizens with only one answer",
+    "customGuideLabelSwitch": "Custom Label",
+    "customGuideLabel": "Label",
+    "multipleQuestionDescription": "After selecting the first Likert type question, to be displayed, all other questions added must have the same options.",
+    "dataLabels": {
+      "quantity": "Quantity ({{value}})",
+      "questions": "Questions",
+      "scores": "Scores (avg.)",
+      "choices": "Choices",
+      "periods": "Periods",
+      "statuses": "Statuses",
+      "registration": "Registrations",
+      "registrations": "Registrations ({{value}})",
+      "frequency": "Frequency",
+      "value": "Value(avg.)"
+    },
+    "chartColumns": {
+      "questions": "Questions",
+      "periods": "Periods",
+      "answerRates": "Answer Rates"
+    }
+  },
+  "timePresets": {
+    "thisWeek": "This week",
+    "lastWeek": "Last week",
+    "thisMonth": "This month",
+    "lastMonth": "Last month",
+    "thisQuarter": "This quarter",
+    "lastQuarter": "Last quarter",
+    "thisYear": "This year",
+    "lastYear": "Last year",
+    "custom": "Custom period",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "yearly": "Yearly"
+  },
+  "CitizenPage": {
+    "noStrategy": "No associated strategy",
+    "chooseStrategy": "Choose strategy",
+    "addStrategyButton": "Add",
+    "pageNotFound": "Page not found",
+    "cantFindCitizen": "Citizen not found",
+    "backButton": "Back",
+    "addTagsButton": "Add tags",
+    "nameTags": "Tag name",
+    "noMatchingTags": "No matching tags",
+    "sendStrategy": "Send surveys ({{survey}})",
+    "name": "Name",
+    "sent": "Sent",
+    "inactiveCitizen": "The citizen is not active",
+    "submissionCreated": "Submission created",
+    "citizenNoPhoneEmail": "The citizen has no phone/email",
+    "surveySent": "The survey has been sent",
+    "answerButton": "Answer",
+    "sendButton": "Send",
+    "noData": "No data",
+    "changeTimeInterval": "Change time interval, send a questionnaire or wait for submissions",
+    "validatedSurveys": "Validated Surveys ({{surveys}})",
+    "setTimeIntervalButton": "Time interval",
+    "closeIcon": "Close",
+    "frequentlyUsed": "Frequently used",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "customize": "Customize...",
+    "clear": "Clear",
+    "apply": "Apply",
+    "date": "Date",
+    "dates": "Dates",
+    "votes": "Votes",
+    "choices": "Choices",
+    "registration": "Registration",
+    "note": "Note",
+    "register": "Register",
+    "editRegistration": "Edit registration",
+    "deleteRegistration": "Delete registration",
+    "areYouSureDelete": "Are you sure you want to delete this registration?",
+    "createRegMessage": "Create registrations or choose another one",
+    "customSurveys": "Custom surveys ({{surveys}})"
+  },
+  "validators": {
+    "requiredField": "Field is required",
+    "invalidEmail": "Invalid email",
+    "invalidPhone": "Invalid phone number",
+    "passwordLength": "Password must be longer than 6 characters",
+    "passwordMaxLength": "Password must be shorter than 64 characters",
+    "passwordDigit": "Password must contain at least one digit",
+    "passwordUppercase": "Password must contain at least one uppercase letter",
+    "passwordMismatch": "The entered passwords do not match",
+    "futureDate": "Date cannot be in the future",
+    "invalidDate": "Invalid date",
+    "requiredDate": "Date is required"
+  },
+  "AnswerSurveyView": {
+    "fieldRequired": "Field is required",
+    "skip": "Skip",
+    "next": "Next",
+    "answer": "Answer",
+    "writeYourAnswerHere": "Write your answer here...",
+    "answered": "Answered",
+    "continueWithoutSave": "You are about to leave without saving",
+    "areYouSureSave": "Are you sure you want to leave without saving",
+    "thankYouForAnswering": "Thank you for answering.",
+    "wellDone": "Well done!",
+    "ErrorContactSupport": "Something went wrong please try again later. \n If it persists please contact Daniel at daniel@impactly.dk",
+    "success": "You can now close the window"
+  },
+  "AnalyticsPage": {
+    "add": "Add",
+    "edited": "Edited {{date}}",
+    "noAnalyticsCalc": "No Analytics Calculations",
+    "weHelpYouSetUp": "We help you all the way through the setup",
+    "createAnalytics": "Create Analytics Calculation",
+    "useTemplateDialog": {
+      "useTemplate": "Use template",
+      "selectConfig": "Select template",
+      "back": "Back",
+      "createAnalytics": "Create",
+      "defaultTemplate": "Standard template",
+      "description": "Choose to create the report based on one of the {{count}} existing templates from {{moduleType}} reports or start from scratch."
+    },
+    "sroi": {
+      "title": "SROI",
+      "description": "SROI is a financial metric that measures the return on investment (ROI) of a project or initiative by comparing the benefits to the costs. It is used to evaluate the financial performance of a project and to make decisions about its continuation or termination.",
+      "sroiFlow": {
+        "title": "Create SROI",
+        "backButton": "Go back",
+        "continueWithoutSave": "You are about to leave without saving!",
+        "promptContinue": "Are you sure you want to leave without saving?",
+        "continue": "Continue",
+        "back": "Go back",
+        "complete": "Complete",
+        "edit": "Edit",
+        "copy": "Copy",
+        "optional": "optional",
+        "skip": "Skip",
+        "help": "Need any help?",
+        "clickHelp": "Click here!",
+        "nav": {
+          "general": "General",
+          "intervention": "Intervention",
+          "targetGroup": "Target Group",
+          "stakeholders": "Stakeholders",
+          "fundingSource": "Funding source",
+          "outcomes": "Outcomes",
+          "method": "Method"
+        },
+        "general": {
+          "title": "Getting started",
+          "description": "Let's start with what this report (or forcast) is about. Give it a name, executive summary and, if you want, put a logo on the front page.",
+          "form": {
+            "isForcast": "This is an SROI forecast",
+            "reportNameTitle": "Report Name",
+            "executiveSummaryTitle": "Executive Summary",
+            "reportLanguageTitle": "Report Language",
+            "reportLanguages": ["English", "Danish"],
+            "currencyTitle": "Report Currency",
+            "currency": ["DKK", "EUR"],
+            "UploadLogo": "Upload Logo",
+            "RemoveLogo": "Remove Logo",
+            "logoDefault": "No logo uploaded",
+            "validation": {
+              "logo": {
+                "format": "Invalid logo format. Please upload a valid image file",
+                "size": "Logo size should not exceed 2MB",
+                "dimension": "Logo dimensions should be less than 200x162."
+              },
+              "reportName": {
+                "required": "Report name is required",
+                "max": "Report name must be no more than 30 characters"
+              },
+              "currency": {
+                "required": "Currency is required",
+                "oneOf": "Invalid currency selected"
+              },
+              "executiveSummary": {
+                "required": "Executive summary is required",
+                "max": "Executive summary must be no more than 600 characters"
+              }
+            }
+          }
+        },
+        "intervention": {
+          "title": "Tell us about your intervention",
+          "description": "Now, tell us about the intervention. This information goes on the first page of the report, which is meant to provide context for the reader and enable them to understand what the intervention is all about.",
+          "form": {
+            "interventionNameTitle": "Intervention name",
+            "interventionDescriptionTitle": "Intervention description",
+            "purposeTitle": "Purpose",
+            "participantsTitle": "Amount of participants",
+            "businessCaseLengthTitle": "Business case length (years)",
+            "addActivity": "+ Add Activity",
+            "activityDialog": {
+              "dialogTitle": "Activities",
+              "activityTitle": "Activity"
+            },
+            "validation": {
+              "interventionName": {
+                "required": "Intervention name is required",
+                "max": "Intervention name must be no more than 30 characters"
+              },
+              "participants": {
+                "required": "Number of participants is required",
+                "integer": "Number of participants must be an integer",
+                "positive": "Number of participants must be positive",
+                "min": "Number of participants cannot be zero or negative"
+              },
+              "businessCaseLength": {
+                "required": "Business case length is required",
+                "integer": "Business case length must be an integer",
+                "min": "Business case length must be from 1 to 100",
+                "max": "Business case length must be from 1 to 100"
+              },
+              "interventionDescription": {
+                "required": "Description is required",
+                "max": "Description must be no more than 600 characters"
+              },
+              "purpose": {
+                "required": "Purpose is required",
+                "max": "Purpose must be no more than 100 characters"
+              },
+              "activities": {
+                "required": "Activities are required",
+                "min": "At least one activity is required",
+                "max": "Cannot have more than 10 activities"
+              }
+            }
+          }
+        },
+        "targetGroup": {
+          "title": "Describe your target group",
+          "description": "Describe the target group you are working with, to provide further context for the reader, and allow them to understand what people you help through your intervention.",
+          "form": {
+            "categoryTitle": "Category",
+            "customCategoryTitle": "Custom Category",
+            "ageGroupMinTitle": "Age group min.",
+            "ageGroupMaxTitle": "Age group max.",
+            "targetGroupDescriptionTitle": "Description",
+            "riskFactorsTitle": "Risk factors",
+            "categoryItems": [
+              "Vulnerable children and youth",
+              "Vulnerable adults",
+              "Adults with disabilities",
+              "Vulnerable families",
+              "Relatives of vulnerable citizens"
+            ],
+            "validation": {
+              "category": {
+                "required": "Category is required",
+                "oneOf": "Invalid category selected"
+              },
+              "ageGroupMin": {
+                "required": "Minimum age group is required",
+                "typeError": "Minimum age group must be a number",
+                "min": "Minimum age group must be at least 1",
+                "max": "Minimum age group cannot exceed 100"
+              },
+              "ageGroupMax": {
+                "required": "Maximum age group is required",
+                "typeError": "Maximum age group must be a number",
+                "min": "Maximum age group must be at least 1",
+                "max": "Maximum age group cannot exceed 100"
+              },
+              "targetGroupDescription": {
+                "required": "Target group description is required",
+                "max": "Target group description must be at most 600 characters"
+              },
+              "riskFactors": {
+                "required": "Risk factors are required",
+                "max": "Risk factors must be at most 600 characters"
+              }
+            }
+          }
+        },
+        "stakeholders": {
+          "title": "Who are your stakeholders?",
+          "description": "Create a list of the stakeholders relevant for your intervention. For each stakeholder, an amount is inserted, fx. 100 participants or 1 municipality. The changes are, which social changes, or outcomes, this stakeholder experiences from their perspective.",
+          "form": {
+            "stakeholderName": "Stakeholder {{count}}",
+            "stakeholderNameTitle": "Name",
+            "stakeholderAmountTitle": "Amount",
+            "numbers": "numbers",
+            "addStakeholder": "+ Add Stakeholder",
+            "addChange": "+ Add change",
+            "addChangesDialog": {
+              "changesTitle": "Changes",
+              "changeTitle": "Change"
+            },
+            "validation": {
+              "stakeholderName": {
+                "required": "Stakeholder name is required",
+                "max": "Stakeholder name must be at most 30 characters"
+              },
+              "stakeholderAmount": {
+                "required": "Number of stakeholder participants is required",
+                "integer": "Number of stakeholder participants must be an integer",
+                "positive": "Number of stakeholder participants must be positive",
+                "min": "Number of stakeholder participants cannot be zero or negative"
+              },
+              "changes": {
+                "required": "Changes are required",
+                "min": "At least one change is required",
+                "max": "Cannot have more than 10 changes"
+              }
+            }
+          }
+        },
+        "fundingSource": {
+          "title": "Describe your funding sources",
+          "description": "Show who funded the project, the total cost and how much each funding source accounts for in percentages.",
+          "form": {
+            "totalInputCostsTitle": "Total input costs",
+            "addFundingSource": "+ Add Funding Source",
+            "fundingSourceName": "Funding Source {{count}}",
+            "fundingSourceNameTitle": "Name",
+            "fundingSourceProportionTitle": "Proportion",
+            "validation": {
+              "totalCosts": {
+                "required": "Total costs is required",
+                "typeError": "Total costs must be a number",
+                "min": "Total costs must be at least 1"
+              },
+              "fundingSourceName": {
+                "required": "Funding source name is required",
+                "max": "Funding source name must be at most 60 characters"
+              },
+              "proportion": {
+                "required": "Proportion is required",
+                "typeError": "Proportion must be a number",
+                "min": "Proportion must be at least 1",
+                "max": "Proportion cannot exceed 100"
+              }
+            }
+          }
+        },
+        "outcomes": {
+          "title": "Describe your outcomes",
+          "description": "Now, the outcomes which the intervention creates for the target group should be added. You can have all the outcomes you want, and each outcome can have one or more beneficiaries.",
+          "addOutcome": "+ Add outcome",
+          "form": {
+            "menuItems": {
+              "copy": "Copy",
+              "remove": "Remove"
+            },
+            "validation": {
+              "outcomes": {
+                "required": "At least one outcome is required"
+              }
+            }
+          },
+          "outcomeDialog": {
+            "outcomeTitle": "Configure outcome",
+            "form": {
+              "outcomeNameTitle": "Outcome name",
+              "outcomeDescription": "Description",
+              "measurementMethodTitle": "Measurement method",
+              "measurementMethodItems": [
+                "Validated questionnaires",
+                "Custom questionnaires",
+                "Registrations",
+                "Data extraction"
+              ],
+              "outcomeStartTitle": "Outcome start",
+              "outcomeStartItems": ["Period after", "Period of activity"],
+              "outcomeDurationTitle": "Outcome duration",
+              "outcomePopulationTitle": "Outcome population",
+              "effectTypeTitle": "Effect Type",
+              "effectTypeItems": ["Person", "Score"],
+              "effectSizeTitle": "Effect Size",
+              "answerRateTitle": "Answer Rate",
+              "yearTitle": "Start Year",
+              "yearsCollectedTitle": "Years collected",
+              "significanceTitle": "Significance",
+              "significanceItems": ["Significance", "Insignificance"],
+              "sourceTitle": "Source",
+              "commentsTitle": "Comments",
+              "skip": "Skip",
+              "basicAlternative": {
+                "title": "Basis alternative (optional)",
+                "amountTitle": "Benchmark Value",
+                "sourceTitle": "Source",
+                "commentsTitle": "Comments"
+              },
+              "sensitivityAnalysis": {
+                "title": "Sensitivity analysis (optional)",
+                "deadweightTitle": "Deadweight",
+                "displacementTitle": "Displacement",
+                "attributionTitle": "Attribution",
+                "dropOffTitle": "Drop-off"
+              },
+              "beneficiaries": {
+                "beneficiariesName": "Beneficiaries",
+                "beneficiariesTitle": "Beneficiary",
+                "beneficiariesItems": [
+                  "State",
+                  "Municipality",
+                  "External organisation",
+                  "Internal organisation",
+                  "Citizens",
+                  "Caretakers / next of kin",
+                  "Employees",
+                  "Volunteers",
+                  "Custom"
+                ],
+                "effectTypeTitle": "Effect type",
+                "effectTypeItems": ["Budgetary", "Social", "Non-priced"],
+                "valueUnitTitle": "Value/Unit",
+                "sourceTitle": "Source",
+                "commentsTitle": "Comments",
+                "addBeneficiary": "+ Add beneficiary"
+              },
+              "validation": {
+                "outcomeName": {
+                  "required": "Outcome name is required",
+                  "max": "Outcome name must be at most 30 characters"
+                },
+                "outcomeDescription": {
+                  "required": "Description is required",
+                  "max": "Description must be at most 100 characters"
+                },
+                "measurementMethod": {
+                  "required": "Measurement method is required",
+                  "oneOf": "Measurement method must be one of: Validated Questionnaires, Custom Questionnaires, Data Extraction"
+                },
+                "outcomeStart": {
+                  "required": "Outcome start date is required",
+                  "oneOf": "Invalid outcome start date"
+                },
+                "outcomeDuration": {
+                  "typeError": "Outcome duration must be a number",
+                  "required": "Outcome duration is required",
+                  "min": "Outcome duration must be greater than or equal to 1",
+                  "integer": "Outcome duration must be an integer"
+                },
+                "outcomePopulation": {
+                  "typeError": "Outcome population must be a number",
+                  "required": "Outcome population is required",
+                  "min": "Outcome population must be greater than or equal to 1",
+                  "integer": "Outcome population must be an integer"
+                },
+                "effectType": {
+                  "required": "Effect type is required",
+                  "oneOf": "Effect type must be one of: Person, Score"
+                },
+                "effectSize": {
+                  "typeError": "Effect size must be a number",
+                  "required": "Effect size is required",
+                  "min": "Effect size must be greater than 0",
+                  "positive": "Effect size must be positive"
+                },
+                "answerRate": {
+                  "typeError": "Answer Rate must be a number",
+                  "min": "Answer Rate must be greater than 0",
+                  "positive": "Answer Rate must be greater than 0"
+                },
+                "startYears": {
+                  "typeError": "Start year must be a number",
+                  "required": "Start year is required",
+                  "integer": "Start year must be an integer"
+                },
+                "yearsCollected": {
+                  "typeError": "Years collected must be a number",
+                  "required": "Years collected is required",
+                  "min": "Years collected must be greater than 0",
+                  "integer": "Years collected must be an integer"
+                },
+                "significance": {
+                  "required": "Significance is required",
+                  "oneOf": "Significance must be one of: Significance, Insignificance"
+                },
+                "source": {
+                  "required": "Source is required",
+                  "max": "Source must be no more than 100 characters"
+                },
+                "comments": {
+                  "required": "Comments is required",
+                  "max": "Comments must be no more than 100 characters"
+                },
+                "alternative": {
+                  "amount": {
+                    "typeError": "Alternative amount must be a number",
+                    "required": "Alternative amount is required",
+                    "min": "Alternative amount must be greater than 0",
+                    "max": "Alternative amount must be less than 100"
+                  },
+                  "source": {
+                    "required": "Source is required",
+                    "min": "Source must be greater than 0",
+                    "max": "Source must be less than 100"
+                  },
+                  "comment": {
+                    "required": "Source is required",
+                    "max": "Source must be at most 100 characters"
+                  }
+                },
+                "sensitivityAnalysis": {
+                  "deadweight": {
+                    "typeError": "Deadweight must be a number",
+                    "required": "Deadweight is required",
+                    "min": "Deadweight must be greater than 0",
+                    "max": "Deadweight must be less than 100"
+                  },
+                  "displacement": {
+                    "typeError": "Displacement must be a number",
+                    "required": "Displacement is required",
+                    "min": "Displacement must be greater than 0",
+                    "max": "Displacement must be less than 100"
+                  },
+                  "attribution": {
+                    "typeError": "Attribution must be a number",
+                    "required": "Attribution is required",
+                    "min": "Attribution must be greater than 0",
+                    "max": "Attribution must be less than 100"
+                  },
+                  "dropoff": {
+                    "typeError": "Dropoff must be a number",
+                    "required": "Dropoff is required",
+                    "min": "Dropoff must be greater than 0",
+                    "max": "Dropoff must be less than 100"
+                  }
+                },
+                "beneficiaries": {
+                  "name": {
+                    "required": "Beneficuary Name is required",
+                    "oneOf": "Beneficuary Name must be one of: State, Region, Municipality, ExternalOrganisation, InternalOrganisation, Citizens CaretakersNextOfKin, Employees,Volunteers, Custom"
+                  },
+                  "type": {
+                    "required": "Beneficuary Type is required",
+                    "oneOf": "Beneficuary Type must be one of: Budgetary, Social, NonPriced"
+                  },
+                  "value": {
+                    "required": "Beneficuary value is required",
+                    "typeError": "Beneficuary value  must be a number",
+                    "positive": "Beneficuary value must be greater than 0",
+                    "notOneOf": "Beneficuary value cannot be zero"
+                  },
+                  "source": {
+                    "required": "Beneficuary Source is required",
+                    "max": "Beneficuary Source must be at most 100 characters"
+                  },
+                  "comments": {
+                    "required": "Beneficuary Comments is required",
+                    "max": "Beneficuary Comments must be at most 100 characters"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "method": {
+          "title": "Describe Your Methodology",
+          "description": "This section should provide the reader with a meta-perspective on the methods used for the evaluation. For example, it may include one or more of the following:",
+          "list": [
+            "Overall introduction",
+            "Evaluation design",
+            "Data collection methods",
+            "Data analysis methods",
+            "Limitations"
+          ],
+          "limit": "You can use up to 3000 characters, including spaces."
+        },
+        "confirmation": {
+          "title": "All done! Ready for your report?",
+          "description": "Your SROI report is ready to be generated, but if you have any last minute changes, just use the right-hand-side menu to navigate.",
+          "downloadReport": "Download report",
+          "form": {
+            "isSavedTemplate": "I want to submit this report as a re-usable template",
+            "templateNameTitle": "Template name"
+          }
+        }
+      }
+    },
+    "mhaw": {
+      "title": "MHAW",
+      "description": "Mental Health At Work is a tool that helps you measure the mental health of your employees and to make decisions about their mental health."
+    },
+    "Welby": {
+      "title": "Welby",
+      "description": "Welby is a tool that helps you measure the well-being of your employees and to make decisions about their well-being."
+    }
+  },
+  "AnalyticPage": {
+    "noAnalytic": "No document found",
+    "expiredAnalytic": "The report document is expired"
+  },
+  "Common": {
+    "DateTime": {
+      "years": "years",
+      "months": "Months",
+      "days": "Days",
+      "Hours": "Hours"
+    },
+    "Measurement": {
+      "units": "units",
+      "person": "person"
+    },
+    "Adornment": {
+      "maxCharLimit": "max. {{char}} characters",
+      "maxItems": "max. {{items}} {{context}} allowed"
+    },
+    "Chips": {
+      "remove": "Remove \"{{name}}\" "
+    },
+    "CheckBox": {
+      "skip": "Skip"
+    },
+    "Tabel":{
+      "rowsPerPage": "Items per page",
+      "of": "of"
+    }
+  }
+}
